@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title> New Website</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: rgb(31, 69, 238);
+        }
+
+        .container {
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box input {
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+
+        .search-box button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu1 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .menu1 li {
+            display: inline-block;
+            margin-right: 50px;
+            padding-top: 20px;
+            padding-left: 5px;
+        }
+
+        .menu li:last-child {
+            margin-right: 0;
+        }
+
+        .menu1 li:last-child {
+            margin-right: 0;
+        }
+
+        .menu li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu1 li a {
+            color: rgb(232, 226, 226);
+            text-decoration: none;
+        }
+
+        .poster {
+            width: 100%;
+            height: 500px;
+            position: absolute;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(./Meadiaimg/05E3s12000cmarxu50A1C.webp);
+            background-size: 100% 100%;
+            background-color: #2808de;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .men .menu li {
+            margin: auto;
+        }
+
+        .Bookings {
+            color: white;
+            background-color: rgb(112, 112, 246);
+            padding: 10px 15px 10px 15px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .Bookings-btn {
+            color: rgb(246, 246, 250);
+            background-color: rgb(243, 46, 46);
+            padding: 10px 15px 10px 15px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .Your {
+            position: absolute;
+            top: 40px;
+            left: 35%;
+            color: white;
+        }
+
+        .Your1 {
+            position: absolute;
+            top: 100px;
+            left: 35%;
+            color: white;
+        }
+
+        .Your2 {
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            color: white;
+        }
+
+        .airpot {
+            width: 90%;
+            height: 170px;
+            background-color: rgb(240, 242, 241);
+            position: absolute;
+            bottom: 30%;
+            left: 5%;
+            border-radius: 5px;
+        }
+
+        .Round {
+            position: absolute;
+            bottom: 70%;
+            left: 3%;
+        }
+
+
+        .material-symbols-outlined {
+            font-size: 20px;
+            padding: 5px;
+
+        }
+
+        /* 11111111111111111111111111111111111111111111111111111111111111111111 */
+        #hotaldiv {
+            font-size: 20px;
+        }
+
+        .container1 {
+            max-width: 800px;
+            height: 20px;
+            margin: 15px auto;
+            display: flex;
+            padding: 20px;
+            background-color: rgb(58, 80, 112);
+            color: white;
+            font-size: 17px;
+            position: absolute;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            bottom: 57%;
+            left: 20%;
+            z-index: 1;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            position: relative;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .item img {
+            margin-right: 10px;
+        }
+
+        .item p {
+            margin: 0;
+        }
+
+        .item .material-icons {
+            font-size: 20px;
+            color: #007bff;
+        }
+
+        .mainpoint {
+            width: 100%;
+            height: 600px;
+            background-color: #2808de;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        /* 111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+
+        /* jabalpurmain------------------------ */
+        .jabalpurmain {
+            width: 95%;
+            height: 70px;
+            bottom: 20%;
+            left: 20px;
+            position: absolute;
+            display: flex;
+
+
+        }
+
+        .jabalpur {
+            width: 290px;
+            height: 50px;
+            background-color: rgb(249, 249, 247);
+            margin: auto;
+            border-radius: 10px;
+            border: 1px solid rgb(203, 186, 186);
+        }
+
+        .jabalpur1 {
+            width: 150px;
+            height: 50px;
+            background-color: rgb(4, 0, 255);
+            margin: auto;
+            color: white;
+            font-weight: 800px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .Leaving {
+            margin-top: 10px;
+            display: flex;
+            padding-top: 8px;
+            padding-left: 20px;
+            color: rgb(143, 147, 152);
+        }
+
+        /* jabalpurmain------------------------------------------------ */
+        /* slideshow-------------------------------------------------- */
+
+        .slideshow {
+            display: flex;
+            width: 90%;
+            height: 220px;
+            background-color: rgb(224, 231, 212);
+            overflow: hidden;
+            border-radius: 10px;
+            margin: auto;
+
+        }
+
+        .slideshow .slide {
+            margin: auto;
+
+        }
+
+        .slideshow .mediaimg {
+            border-radius: 20px;
+            width: 100%;
+            height: 150px;
+
+            transition: transform 0.6s ease;
+        }
+
+        .slideshow:hover .slide {
+            transform: scale(1.1);
+            overflow: hidden;
+        }
+
+        /* slideshow---------------------------------------------------------- */
+        /* Section-33----------------------------------- */
+        .section3 {
+            background-color: rgb(247, 250, 252);
+            width: 90%;
+            height: 450px;
+            margin: auto;
+        }
+
+
+        .sideb button:hover {
+            background-color: rgb(15, 41, 77);
+            color: white;
+            font-weight: 700px;
+        }
+
+        .sideb button {
+            border-radius: 4px;
+            padding: 10px 15px 10px 15px;
+            background-color: rgb(236, 237, 235);
+            border-color: transparent;
+            margin-left: 20px;
+        }
+
+        .img-main {
+            display: flex;
+            margin: auto;
+            margin-top: 10px;
+            background-color: rgb(236, 226, 236);
+            height: 300px;
+
+
+        }
+
+        .card1 {
+            width: 23%;
+            margin: auto;
+            background-color: rgb(240, 243, 233);
+            border-top-left-radius: 10px;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+            overflow: hidden;
+
+        }
+
+        .card2 {
+            position: relative;
+            width: 23%;
+            margin: auto;
+            height: 280px;
+            background-color: rgb(240, 243, 233);
+            border-top-left-radius: 10px;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+            background-image: url(./Meadiaimg/s4.png);
+            background-size: 100% 100%;
+            overflow: hidden;
+
+        }
+
+
+        .cardss {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 260px;
+            height: 200px;
+
+        }
+
+        .card1:hover .div1 {
+            transform: scale(1.1);
+            overflow: hidden;
+        }
+
+        /* .card2:hover .popular {
+            transform: scale(1.1);
+            overflow: hidden;
+        } */
+
+        .Manila {
+            padding-left: 15px;
+            color: rgb(15, 41, 77);
+        }
+
+        .div1 {
+            padding-bottom: 10px;
+
+        }
+
+        .dd {
+            background-color: #2808de;
+            border-radius: 20px;
+            border-top-right-radius: 0px;
+            padding: 5px;
+        }
+
+        .popular {
+            position: absolute;
+            bottom: 30%;
+            color: white;
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .popular1 {
+            position: absolute;
+            bottom: 10%;
+            color: rgb(249, 248, 251);
+            background-color: #4a2ee5;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+            padding: 10px 80px 10px 80px;
+            font-size: 20px;
+        }
+
+        /* Section--33---------------------------------- */
+        /* Section-4----------------------------------- */
+        .section4 {
+            background-color: rgb(247, 250, 252);
+            width: 90%;
+            height: 600px;
+            margin: auto;
+        }
+
+
+        .btn-div3 button:hover {
+            background-color: rgb(15, 41, 77);
+            color: white;
+            font-weight: 700px;
+        }
+
+        .btn-div3 button {
+            border-radius: 4px;
+            padding: 10px 15px 10px 15px;
+            background-color: rgb(236, 237, 235);
+            border-color: transparent;
+            margin-left: 20px;
+        }
+
+        .side-img {
+            display: flex;
+            margin: auto;
+            height: 400px;
+            margin-top: 10px;
+            background-color: rgb(222, 205, 222);
+
+
+        }
+
+        .card4-img-content {
+            width: 23%;
+            margin: auto;
+            height: 350px;
+            background-color: rgb(224, 230, 213);
+            border-top-left-radius: 10px;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+            overflow: hidden;
+
+        }
+
+        .cardimgs-4 {
+            position: relative;
+            width: 23%;
+            margin: auto;
+            height: 350px;
+            background-color: rgb(240, 243, 233);
+            border-top-left-radius: 10px;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+            background-image: url(./Meadiaimg/h4.png);
+            background-size: 100% 100%;
+            overflow: hidden;
+
+        }
+
+
+        .card {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 260px;
+            height: 200px;
+
+        }
+
+        .card4-img-content:hover .img-content {
+            transform: scale(1.1);
+            overflow: hidden;
+        }
+
+
+        .Main-featured {
+            padding-left: 15px;
+            color: rgb(15, 41, 77);
+        }
+
+        .img-content {
+            padding-bottom: 10px;
+
+        }
+
+        .dd11 {
+            background-color: #2808de;
+            border-radius: 20px;
+            border-top-right-radius: 0px;
+            padding: 5px;
+        }
+
+        .populars {
+            position: absolute;
+            bottom: 30%;
+            color: white;
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .now-btn {
+            position: absolute;
+            bottom: 10%;
+            color: rgb(249, 248, 251);
+            background-color: #4a2ee5;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+            padding: 10px 80px 10px 80px;
+            font-size: 20px;
+        }
+
+        .icon-imgs {
+            display: flex;
+        }
+
+        .imgs-content {
+            margin-bottom: 20px;
+            margin-right: 20px;
+            border-bottom: dotted;
+        }
+
+        .canp {
+            /* position: absolute; */
+            /* bottom: 10%; */
+            float: right;
+            padding-right: 10px;
+        }
+
+        .Form {
+            padding-left: 30px;
+            font-size: 12px;
+            color: #a2a6ac;
+        }
+
+        /* Section-4----------------------------------- */
+        /* Section-5----------------------------------- */
+
+        .section5 {
+            background-color: rgb(247, 250, 252);
+            width: 90%;
+            height: 600px;
+            margin: auto;
+        }
+
+
+        .Button-div button:hover {
+            background-color: rgb(15, 41, 77);
+            color: white;
+            font-weight: 700px;
+        }
+
+        .Button-div button {
+            border-radius: 4px;
+            padding: 10px 15px 10px 15px;
+            background-color: rgb(236, 237, 235);
+            border-color: transparent;
+            margin-left: 20px;
+        }
+
+        .img4-div {
+            display: flex;
+            margin: auto;
+            height: 400px;
+            margin-top: 10px;
+            background-color: rgb(250, 240, 250);
+
+
+        }
+
+        .img-content-div {
+            width: 23%;
+            margin: auto;
+            height: 350px;
+            background-color: rgb(248, 250, 245);
+            border-top-left-radius: 10px;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+            overflow: hidden;
+
+        }
+
+        .card-div {
+            position: relative;
+            width: 23%;
+            margin: auto;
+            height: 350px;
+            background-color: rgb(240, 243, 233);
+            border-top-left-radius: 10px;
+            border-radius: 10px;
+            /* transition: all .2s ease-in-out; */
+            transition: transform 0.5s ease;
+            background-image: url(./Meadiaimg/c4.png);
+            background-size: 100% 100%;
+            overflow: hidden;
+
+        }
+
+
+        .card5 {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 260px;
+            height: 200px;
+
+        }
+
+        .img-content-div:hover .img-conten {
+            transform: scale(1.1);
+            /* overflow: hidden; */
+            background-color: rgb(243, 247, 237);
+        }
+
+
+        .Featured {
+            /* padding-top: 20px; */
+            padding-left: 25px;
+            color: rgb(15, 41, 77);
+        }
+
+        .img-conten {
+            width: 100%;
+            height: 200px;
+            padding-bottom: 10px;
+            background-color: #f2f8f4;
+            overflow: hidden;
+
+        }
+
+        .dd5 {
+            background-color: rgb(0, 66, 155);
+            border-radius: 20px;
+            border-top-right-radius: 0px;
+            color: wheat;
+            padding: 5px;
+        }
+
+        .popular-content {
+            position: absolute;
+            bottom: 30%;
+            color: white;
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .popular-btn {
+            position: absolute;
+            bottom: 10%;
+            color: rgb(249, 248, 251);
+            background-color: #4a2ee5;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+            padding: 10px 80px 10px 80px;
+            font-size: 20px;
+        }
+
+        .price {
+            display: flex;
+        }
+
+        .imagdiv {
+            margin-bottom: 20px;
+            margin-right: 20px;
+            border-bottom: dotted;
+        }
+
+        .canp5 {
+            /* position: absolute; */
+            /* bottom: 10%; */
+            float: right;
+            padding-right: 10px;
+        }
+
+        .Form5 {
+            padding-left: 30px;
+            font-size: 12px;
+            color: #a2a6ac;
+        }
+
+        /* Section-5---------------------------------- */
+        /* ------------------------------------ */
+        .Mobile {
+            height: 550px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./Meadiaimg/mobile.webp);
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .mob {
+            width: 300px;
+            height: 500px;
+            /* padding: 60px; */
+            border-radius: 10px;
+        }
+
+        .mbimg {
+            width: 270px;
+            height: 470px;
+            background-image: url(./Meadiaimg/en-us-phone.jpg);
+            background-color: yellowgreen;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 5px solid rgb(244, 240, 240);
+            outline: 5px solid rgb(244, 240, 240);
+            border-radius: 20px;
+            position: absolute;
+            bottom: 0px;
+            left: 10%;
+        }
+
+        .winning {
+            position: absolute;
+            top: 10px;
+            left: 40%;
+            color: white;
+        }
+
+        .winning1 {
+            position: absolute;
+            top: 60px;
+            left: 40%;
+            color: white;
+        }
+
+        .code {
+            position: absolute;
+            top: 25%;
+            left: 40%;
+            color: white;
+            /* background-image: url(./Meadiaimg/code.PNG); */
+        }
+
+        .code1 {
+            position: absolute;
+            top: 37%;
+            left: 40%;
+            color: white;
+        }
+
+        .code2 {
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            color: white;
+        }
+
+
+        .lorem p,
+        h5 {
+            font-size: 12px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #a2a6ac;
+        }
+        /* ------------------------------------ */
+        /* footer--------------------------------------------------- */
+        .footer {
+            width: 100%;
+            height: 250px;
+            background-color: #e8eff5;
+            text-align: center;
+            display: flex;
+            margin: auto;
+        }
+
+        /* inline */
+        .footer-div {
+            margin: auto;
+            list-style: none;
+        }
+
+        /* footer--------------------------------------------------- */
+    </style>
+    <div class="mainpoint">
+        <nav>
+            <div class="container">
+                <div class="logo"><img src="./Meadiaimg/05E0m12000cga1gcq4721.webp" alt="" width="100px"></div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                    <button><span class="material-symbols-outlined">
+                            search
+                        </span></button>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">App</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#"><img src="./Meadiaimg/ind.PNG" alt="" width="25px"></a></li>
+                    <li><a href="#">USA</a></li>
+                    <li><a href="#"><button class="Bookings">Search Bookings</button></a></li>
+                    <li><a href="#"><button class="Bookings-btn">Register</button></a></li>
+                </ul>
+            </div>
+            <!-- <div class="men">
+                <ul class="menu1">
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Flights</a></li>
+                    <li><a href="#">Trains</a></li>
+                    <li><a href="#">Cars</a></li>
+                    <li><a href="#">Attractions & Tours</a></li>
+                    <li><a href="#">Bundle & Save</a></li>
+                    <li><a href="#">Cruise</a></li>
+                    <li><a href="#">Custom Trips</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Deals</a></li>
+                </ul>
+            </div> -->
+        </nav>
+        <div class="poster">
+            <h1 class="Your">Your Trip Starts Here</h1>
+            <p class="Your1"> <img src="./Meadiaimg/0AS6b1200090fx7s7F635.png" alt="" width="16px"
+                    style="margin-right: 10px;">Secure Payment</p>
+            <p class="Your2"> <img src="./Meadiaimg/0AS6b1200090fx7s7F635.png" alt="" width="16px"
+                    style="margin-right: 10px;">Support in Approx. 30s</p>
+            <div class="container1">
+                <div class="item">
+                    <span id="hotaldiv" class="material-symbols-outlined">
+                        storefront
+                    </span>
+                    <p>Hotels</p>
+                </div>
+                <div class="item">
+                    <span id="hotaldiv" class="material-symbols-outlined">
+                        flight
+                    </span>
+                    <p>Flights</p>
+                </div>
+                <div class="item">
+                    <span id="hotaldiv" class="material-symbols-outlined">
+                        train
+                    </span>
+                    <p>Trains</p>
+                </div>
+                <div class="item">
+                    <span id="hotaldiv" class="material-symbols-outlined">
+                        directions_car
+                    </span>
+                    <p>Cars</p>
+                </div>
+                <div class="item">
+                    <span id="hotaldiv" class="material-symbols-outlined">
+                        settings
+                    </span>
+                    <p>Attractions & Tours</p>
+                </div>
+                <div class="item">
+                    <span id="hotaldiv" class="material-symbols-outlined">
+                        directions_boat
+                    </span>
+                    <p>Bundle & Save</p>
+                </div>
+            </div>
+            <div class="airpot">
+                <div class="Round">
+                    <span class="material-symbols-outlined">
+                        flight
+                    </span>
+                    Round trip
+                    <select name="" id="" style="border: none;"></select>
+                    <span class="material-symbols-outlined">
+                        person_2
+                    </span>
+                    Round trip
+                    <select name="" id="" style="border: none;"></select><span class="material-symbols-outlined">
+                        shopping_cart_checkout
+                    </span>
+                    Round trip
+                    <select name="" id="" style="border: none;"></select>
+                </div>
+                <div class="jabalpurmain">
+                    <div class="jabalpur">
+                        <span class="Leaving">Leaving form</span>
+                    </div>
+                    <div class="jabalpur"><span class="Leaving">Going to</span></div>
+                    <div class="jabalpur"><span class="Leaving"><b>Wed, Mar 20 ---Sat, Mar 23</b></span></div>
+                    <button class="jabalpur1"><b>Search</b></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slideshow">
+        <div class="slide">
+            <img src="./Meadiaimg/0a12j12000becq7g4ACD1.webp" alt="1" class="mediaimg">
+        </div>
+        <div class="slide">
+            <img src="./Meadiaimg/0a11e12000d1p9xza2DA1.webp" alt="2" class="mediaimg">
+        </div>
+        <div class="slide">
+            <img src="./Meadiaimg/1gz2b12000d3b4w848CAA.jpg" alt="3" class="mediaimg">
+        </div>
+    </div>
+    <!-- --------------------------------------------333333333333333 -->
+    <div class="section3">
+        <h1 class=" Manila">Popular Attractions</h1>
+        <div class="sideb">
+
+            <button style="background-color: #1a2027; color: white">Bangkok</button>
+            <button> Tokyo</button>
+            <button>Manila</button>
+            <button>Hong</button>
+            <button>Kong</button>
+            <button>Seoul</button>
+            <button>Taipei</button>
+        </div>
+        <div class="img-main">
+            <div class="card1">
+                <div class="div1"><img src="./Meadiaimg/s1.webp" alt="" class="cardss  "></div>
+                <b class=" Manila"> The Manila Cathedral</b>
+                <p class=" Manila"> <span class="dd">4.5</span> /5(Excellent)</p>
+            </div>
+            <div class="card1">
+                <div class="div1"><img src="./Meadiaimg/s2.webp" alt="" class="cardss  "></div>
+                <b class=" Manila"> The Manila Cathedral</b>
+                <p class=" Manila"> <span class="dd">4.5</span> /5(383 reviews)</p>
+            </div>
+            <div class="card1">
+                <div class="div1"><img src="./Meadiaimg/s3.webp" alt="" class="cardss  "></div>
+                <b class=" Manila"> The Manila Cathedral</b>
+                <p class=" Manila"> <span class="dd">4.5</span> /5(383 reviews)</p>
+            </div>
+
+            <div class="card2">
+                <div class="popular">Explore more popular <br>destinations</div>
+                <button class="popular1">Buy now</button>
+
+            </div>
+        </div>
+    </div>
+    <!-- 33333333333333333333333333333333333333333333333333 -->
+    <div class="section4">
+        <h1 class=" Main-featured">Featured Properties</h1>
+        <div class="icon-imgs">
+            <div class="imgs-content"> <img src="./Meadiaimg/0AS6b1200090fx7s7F635.png" alt="" width="16px"
+                    style="margin-right: 10px;">We Price Match </div>
+            <div class="imgs-content"> <img src="./Meadiaimg/0AS6b1200090fx7s7F635.png" alt="" width="16px"
+                    style="margin-right: 10px;"> Hotel Booking Guarantee</div>
+
+            <div class="imgs-content"> <img src="./Meadiaimg/0AS6b1200090fx7s7F635.png" alt="" width="16px"
+                    style="margin-right: 10px;"> Hotel Stay Guarantee </div>
+
+
+        </div>
+        <div class="btn-div3">
+
+            <button style="background-color: #323e4b; color: white">Bangkok</button>
+            <button> Atlanta</button>
+            <button>AtlantaOr</button>
+            <button>BeachNew</button>
+            <button>BeachNew</button>
+            <button>VegasLos</button>
+            <button>Angeles</button>
+            <button>Houston</button>
+            <button>Cancun</button>
+        </div>
+
+        <div class="side-img">
+            <div class="card4-img-content">
+                <div class="img-content"><img src="./Meadiaimg/h1.webp" alt="" class="card  "></div>
+                <b class=" Main-featured">Hilton Atlanta </b>
+                <p class=" Main-featured"> <span class="dd">4.5/6</span> 383 reviews</p>
+
+                <P class="Form ">Free Cancellation</P>
+                <span class="canp">Form<b>$128</b></span>
+            </div>
+            <div class="card4-img-content">
+                <div class="img-content"><img src="./Meadiaimg/h2.webp" alt="" class="card  "></div>
+                <b class=" Main-featured"> The Westin Peachtree Plaza</b>
+                <p class=" Main-featured"> <span class="dd">4.5/5</span> 383 reviews</p>
+                <P class="Form ">Free Cancellation</P>
+                <span class="canp">Form<b>$128</b></span>
+            </div>
+            <div class="card4-img-content">
+                <div class="img-content"><img src="./Meadiaimg/h3.webp" alt="" class="card  "></div>
+                <b class=" Main-featured"> AC Hotel Atlanta Downtown</b>
+                <p class=" Main-featured"> <span class="dd">4.4/5</span> 132 reviews</p>
+                <P class="Form ">Free Cancellation</P>
+                <span class="canp">Form<b>$128</b></span>
+
+            </div>
+
+            <div class="cardimgs-4">
+                <div class="populars">Explore more popular <br>destinations</div>
+                <button class="now-btn">Go now</button>
+
+            </div>
+        </div>
+    </div>
+    <!-- 44444444444444444444444444444444444444444444444444444444444444444 -->
+    <div class="section5">
+        <h1 class=" Featured">Featured Properties</h1>
+        <div class="price">
+            <div class="imagdiv"> <img src="./Meadiaimg/0AS6b1200090fx7s7F635.png" alt="" width="16px"
+                    style="margin-right:10px;">We Price Match </div>
+            <div class="imagdiv"> <img src="./Meadiaimg/0AS6b1200090fx7s7F635.png" alt="" width="1px"
+                    style="margin-right:10px;"> Hotel Booking Guarantee</div>
+
+            <div class="imagdiv"> <img src="./Meadiaimg/0AS6b1200090fx7s7F635.png" alt="" width="16px"
+                    style="margin-right:10px;"> Hotel Stay Guarantee </div>
+
+
+        </div>
+        <div class="Button-div">
+
+            <button style="background-color: #323e4b; color: white">Bangkok</button>
+            <button> Atlanta</button>
+            <button>AtlantaOr</button>
+            <button>BeachNew</button>
+            <button>BeachNew</button>
+            <button>VegasLos</button>
+            <button>Angeles</button>
+            <button>Houston</button>
+
+            <button>Cancun</button>
+        </div>
+
+        <div class="img4-div">
+            <div class="img-content-div">
+                <div class="img-conten"><img src="./Meadiaimg/c1.png" alt="" class="card5  "></div>
+                <b class=" Featured">
+                    Nissan Sentra or Similar
+                </b>
+
+                <p class=" Featured"> <img src="./Meadiaimg/slogo.png" alt="" width="40px"> <span
+                        class="dd5">5.0/5</span> Excellent</p>
+
+                <P class="Form5 ">Nissan Altima or Similar</P>
+                <span class="canp5">Form<b>$3454</b></span>
+            </div>
+            <div class="img-content-div">
+                <div class="img-conten"><img src="./Meadiaimg/c2.png" alt="" class="card5  "></div>
+                <b class=" Featured"> The Westin Peachtree Plaza</b>
+                <p class=" Featured"><img src="./Meadiaimg/slogo.png" alt="" width="40px"> <span
+                        class="dd5">4.5/5</span> Excellent</p>
+                <P class="Form5 ">Free Cancellation</P>
+                <span class="canp5">Form<b>$35.54</b></span>
+            </div>
+            <div class="img-content-div">
+                <div class="img-conten">
+                    <img src="./Meadiaimg/c3.png" alt="" class="card5  ">
+                </div>
+                <b class=" Featured" id="vv"> Buick Encore or Similar</b>
+                <p class=" Featured"> <img src="./Meadiaimg/slogo.png" alt="" width="40px"><span
+                        class="dd5">4.4/5</span> Excellent</p>
+                <P class="Form5 ">Free Cancellation</P>
+                <span class="canp5">Form<b>$31.54</b></span>
+
+            </div>
+
+
+            <div class="card-div">
+                <div class="popular-content">Explore more popular <br>destinations</div>
+                <button class="popular-btn">Go now</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="Mobile">
+        <div class="mbimg"></div>
+        <h1 class="winning">Get the Trip.com App</h1>
+        <p class="winning1"> Our award-winning app offers exclusive deals for flights, hotels, and more
+        </p>
+        <div class="code"><img src="./Meadiaimg/sc1.png" alt="" width="100px"></div>
+        <div class="code1"><img src="./Meadiaimg/sc2.png" alt="" width="100px"></div>
+        <div class="code2"><img src="./Meadiaimg/cs3.png" alt="" width="100px"></div>
+    </div>
+    <hr >
+    <div class="lorem">
+        <h5> Save on Travel With Trip.com</h5>
+
+
+        <p>Trip.com is a rapidly-growing global online travel agency. We're here to help you plan the perfect trip.
+            Whether
+            you're going on holiday, taking a business trip, or looking to set up a corporate travel account, Trip.com
+            is
+            here to help you travel the world with cheap flights, discount hotels, and train tickets. Looking to find
+            great
+            travel deals or enjoy the biggest savings on your next trip? Trip.com has you covered. With our easy-to-use
+            website and app, along with 24-hour customer support, booking your next trip couldn't be simpler. With
+            Trip.com,
+            quality travel services in over a dozen languages including English, Mandarin, Cantonese, Japanese, Korean,
+            German, French, and Spanish are just a call—or click—away.</p>
+        <h5> Easily Customize Your Trip With the Best Hotel and Flight Deals</h5>
+
+        <p>It's easy to customize your travel experience with our robust flight and hotel search filter options and
+            Trip.com travel tools like flight fare alerts, deal-finder calendar, and early bird deals. Trip.com's secure
+            payment system takes the stress out of travel by providing easy payment options, including credit and debit
+            cards and UnionPay.</p>
+
+        <h5> Featured Hotel Destinations</h5>
+
+        <p>Best Hotels in Shanghai | Best Hotels in Hong Kong | Best Hotels in Las Vegas | Best Hotels in Bangkok | Best
+            Hotels in Beijing | Best Hotels in Guangzhou | Best Hotels in NYC | Best Hotels in Singapore | Best Hotels
+            in
+            Kuala Lumpur | Best Hotels in Dubai | Best Hotels in Chicago | Best Hotels in San Diego | Best Hotels in
+            Miami |
+            Best Hotels in New Orleans | Best Hotels in Nashville | Best Hotels in Boston | Best Hotels in Orlando |
+            Best
+            Hotels in Savannah | Best Hotels in Charleston | Best Hotels in Los Angeles| Hotels in Bangkok | Hotels in
+            Da
+            Nang</p>
+        <h5>Popular Flights</h5>
+
+        <p>Flights from Cairo to Jeddah | Flights from Dubai to Riyadh | Flights from London to New York | Flights from
+            London to Dubai | Flights from Kuala Lumpur to Singapore | Flights from Dubai to Jeddah | Flights from
+            Orlando
+            to San Juan | Flights from Dubai to Mumbai | Flights from Cairo to Riyadh | Flights from Dubai to Delhi |
+            Flights from Bangkok to Phuket | Flights from Shanghai to Beijing | Flights from New York to Los Angeles |
+            Flights from San Francisco to New York | Flights from New York to Miami | Flights from Boston to Miami |
+            Flights
+            from Dallas to Las Vegas | Flights from Boston to Orlando | Flights from Chicago to Phoenix | Flights from
+            Chicago to Miami
+        <h5> Trending Searches</h5>
+
+        <p> Trip.com Promo Code | Trip.com Promo Code Malaysia | Trip.com Flight Deals | Trip.com Hotel Discounts |
+            China
+            Public Holidays 2023 | Bora Bora Resorts | Japan Public Holidays 2023 | India Public Holidays 2023 | Federal
+            Holidays 2023 | Nude Beach US | Visit Japan Web | Travel to Taiwan | 7 Star Hotels in India | Chinatown
+            Bangkok
+            | Best Massage in Bangkok | Tuk Tuk | How to get cheap flight tickets | Is Malaysia Open for Tourists | How
+            to
+            book cheap hotels
+
+        <h5> Trip.com Links</h5>
+
+        <p>Trip.com App Android | Trip.com App iOS | Trip.com on Twitter | Trip.com on Facebook | Trip.com Reviews |
+            Trip.com TripperVerse</p>
+        <h5> Popular Airlines and Airports</h5>
+
+        <p>Alaska Airlines | Spirit Airlines | Copa Airlines | Volaris | Tap Air Portugal | Avianca | Allegiant |
+            Jetblue |
+            United Airlines | American Airlines | Vivaaerobus | Air Senegal | Eastar | Iberia | Kuwait Airways | Sun
+            Country
+            Airlines | Latam Airlines | Eva Air | Frontier Airline | Delta | Myair | Turkish Airline
+        <h5> Flights to Popular Cities</h5>
+
+        <p>Flights to London | Flights to Rome | Flights to Paris | Flights to New York | Flights to Tokyo | Flights to
+            Las
+            Vegas | Flights to Miami | Flights to Orlando | Flights to Hawaii | Flights to Atlanta | American Airlines
+            Flights to Hawaii | American Airlines Flights to Cancun | United Airlines Flights to Las Vegas | United
+            Airlines
+            Flights to Cancun | Delta Air Lines Flights to Dublin | Delta Air Lines Flights to Miami | Spirit Airlines
+            Flights to Myrtle Beach | Spirit Airlines Flights to Orlando | Alaska Airlines Flights to San Francisco |
+            Alaska
+            Airlines Flights to Houston</p>
+
+        <style>
+            .stiki {
+                width: 60px;
+                height: 60px;
+                background-color: rgb(41, 83, 214);
+                position: sticky;
+                left: 100%;
+                bottom: 1%;
+            }
+
+            .stik1i {
+                width: 60px;
+                height: 60px;
+                background-color: rgb(41, 83, 214);
+                position: sticky;
+                left: 100%;
+                bottom: 15%;
+            }
+
+            .stiki2 {
+                width: 60px;
+                height: 60px;
+                background-color: rgb(41, 83, 214);
+                position: sticky;
+                left: 100%;
+                bottom: 30%;
+            }
+
+            .stik1i,
+            .stiki,
+            .stiki2,
+            #stik {
+                font-size: 30px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                color: rgb(41, 83, 214);
+                color: white;
+
+            }
+        </style>
+    </div>
+    <div class="stiki"><span class="material-symbols-outlined" id="stik">
+        phone_iphone
+    </span></div>
+<div class="stik1i"><span class="material-symbols-outlined" id="stik">
+        headset_mic
+    </span></div>
+<div class="stiki2"><span class="material-symbols-outlined" id="stik">
+        arrow_upward
+    </span></div>
+
+    
+    <hr>
+    <div class="footer">
+        <div class="footer-div">
+            <h4>Contact Us</h4>
+
+
+            <p> Customer Support</p>
+            <p> Service Guarante</p>
+            <p> More Service Inf</p>
+            <p> Website Feedback</p>
+        </div>
+        <div class="footer-div">
+            <h4>About</h4>
+
+            <p> News</p>
+            <p> Careers</p>
+            <p> Terms & Conditions</p>
+            <p> Privacy Statement</p>
+
+
+        </div>
+        <div class="footer-div">
+            <h4>Other Services</h4>
+
+
+
+
+
+            <p> investor Relations</p>
+            <p> Trip.com Rewards</p>
+
+            <p> Privacy Statement</p>
+            <p> All Hotels </p>
+            <p> List My Property </p>
+
+
+        </div>
+        <div class="footer-div">
+            <h4>Payment Methods</h4>
+            <img src="./Meadiaimg/p1.webp" alt="" width="40px">
+            <img src="./Meadiaimg/p2.webp" alt="" width="40px">
+            <img src="./Meadiaimg/p3.webp" alt="" width="40px"><br>
+            <img src="./Meadiaimg/p4.webp" alt="" width="40px">
+            <img src="./Meadiaimg/p1.webp" alt="" width="40px">
+            <img src="./Meadiaimg/p2.webp" alt="" width="40px"><br>
+            <img src="./Meadiaimg/p3.webp" alt="" width="40px"><br>
+            <img src="./Meadiaimg/p4.webp" alt="" width="40px">
+            <br><br>
+            <hr>
+            <span class="material-symbols-outlined">
+                g_translate
+            </span>
+
+        </div>
+
+
+
+    </div>
+    
+    <hr>
+    <div style="text-align: center;"><img src="./Meadiaimg/trip l.webp" alt="">
+        <p style="text-align: center;color: #dce3eb;">Trip.com is part of Trip.com Group Limited, one of the world's
+            leading providers of travel services</p>
+            <hr>
+    </div>
+    
+
+</body>
+
+</html>
